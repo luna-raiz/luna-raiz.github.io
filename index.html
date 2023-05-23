@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everline</title>
+    <style>
+        .nav{
+            display: flex;
+            font-size: 1.5em;
+            padding: 15px;
+            border:1px solid rgb(180, 184, 180);
+            justify-content: space-between;
+        }
+        .body{
+            background: url('https://i.pinimg.com/736x/25/20/14/252014bbc0cc13a083b381f631fb784d.jpg');
+            margin:0 auto;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .wa-logo{
+            position: fixed;
+            right:20px;
+            bottom:10px;
+            width:40px;
+            height: 40px;
+            border:5px double rgb(30, 255, 0);
+            border-radius: 50%;
+        }
+        .phone-logo{
+            position: fixed;
+            right:20px;
+            bottom:70px;
+            width:40px;
+            height: 40px;
+            border:5px double rgb(76, 0, 255);
+            border-radius: 50%;
+        }
+        .wa-logo img, .phone-logo img{
+            width:100%;
+            height:100%;
+            border-radius: 50%;
+            overflow: hidden;
+
+        }
+        .card-container{
+            width:49%;
+            margin:2%;
+            border: 1px solid blue;
+            margin: 5px auto;
+            display: inline-block;
+            background-color: white;
+        }
+        .card-container h3{
+            text-transform: uppercase;
+            background-color: rgb(0, 204, 255);
+            text-align: center;
+        }
+        .card-container table{
+            background-color: white;
+            margin: 0 auto;
+            width:50%;
+        }
+
+        @media only screen and (max-width:670px){
+            .card-container{
+                width:98%;
+            }
+        }
+        h2{
+            text-align: center;
+        }
+
+        .footer ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .footer{
+            color: white;
+            background-color: black;
+            padding: 10px 2px;
+        }
+        .welcome{
+            background-color: rgba(192, 192, 192, 0.226);
+            min-height: 10vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">&#127968;</div>
+        <div class="items">contacts</div>
+    </div>
+    <div class="welcome">
+        <h2>Welcome to Clean Home</h2>
+        <p>We are a professional cleaning service company dedicated to providing top-quality cleaning solutions for residential and commercial spaces. Our team of trained professionals uses eco-friendly products and modern techniques to ensure exceptional results.</p>
+    </div>
+    <h2>Price List</h2>
+    <div class="body">
+        <div class="card-container">
+            <h3>LAUNDRY BASkets</h3>
+            <table>
+                <tr>
+                    <td>Large</td>
+                    <td>Ksh.500</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td>Ksh.300</td>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>Ksh.150</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-container">
+            <h3>house cleaning</h3>
+            <table>
+                <tr>
+                    <td>House Cleaning</td>
+                    <td>Ksh.500</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="card-container">
+            <h3>Cooking</h3>
+            <table>
+                <tr>
+                    <td>Cooking</td>
+                    <td>Depends on food type</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-container">
+            <h3>Utensils</h3>
+            <table>
+                <tr>
+                    <td>Utensils</td>
+                    <td>Ksh.300</td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+    <div class="footer">
+       <ul>
+        <li>Phone: +25428404190</li>
+        <li>Email: evv@gmail.com</li>
+        <li>Facebook:</li>
+        Twitter: Jkk
+       </ul>
+    </div>
+    <div class="wa-logo"> <a href="https://wa.me/25428404190?text=From%20Your%20Site"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt=""></a></div>
+    <div class="phone-logo"><a href="tel:+25428404190"><img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt=""></a></div>
+</body>
+</html>
